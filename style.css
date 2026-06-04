@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+    background: linear-gradient(90deg, rgb(255, 255, 255) 47.8%, rgb(217, 227, 239) 0%);
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.container {
+    max-width: 1143px;
+    padding: 20px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/*header*/
+.header {
+    padding-top: 42px;
+}
+
+.header__wooman {
+    background: url(./img/woman.png) no-repeat;
+    position: absolute;
+    margin-left: 209px;
+    z-index: -1;
+    width: 968px;
+    height: 967px;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__clothes {
+    display: flex;
+    align-items: center;
+    gap: 65px;
+    text-transform: uppercase;
+}
+
+.header__logo {
+    padding: 10px 25px;
+    border: 2px solid #000;
+}
+
+.nav__images-vector {
+    display: flex;
+    gap: 20px;
+}
+
+/*header*/
+
+
+/*hero*/
+.main {
+    height: auto;
+    margin-top: 250px;
+}
+
+.hero {
+    position: relative;
+    max-width: 529px;
+}
+
+.hero_title {
+    font-size: 60px;
+    max-width: 529px;
+    font-weight: 700;
+    color: #373737;
+   
+}
+
+.hero__button {}
+
+.hero__way {
+    display: inline-block;
+    margin-top: 60px;
+    color: #FFFFFF;
+    padding: 23px 55px;
+    background-color: #373737;
+    letter-spacing: 12%;
+    text-transform: uppercase;
+}
+
+.hero__image {
+    position: absolute;
+    top: 0;
+}
+/*hero*/
+
+/*media*/
+@media screen and (max-width:1445px) {
+    .container{
+     width:calc(100% - 120px);   
+    } 
+}
+/*media*/
