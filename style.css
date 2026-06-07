@@ -118,7 +118,7 @@ a {
     .header__wooman{
         background: url(./img/woman.png) no-repeat 250px;
         right: 0;
-    
+
     } 
 }
 @media screen and (max-width:879px) {
