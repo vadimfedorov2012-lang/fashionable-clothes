@@ -195,17 +195,6 @@ label{
         transform: scale(0);
         opacity: 0;
     }
-  /* .header__clothes {
-        position: fixed;
-        left: 0;
-        background-color: gray;
-        padding-top: 100px;
-        z-index: -1;
-        flex-direction: column;
-        text-align: center;
-        top: -100vh;
-        bottom: 100vh;
-    } */
      .header__logo{
         display: block;
     }
@@ -218,9 +207,10 @@ label{
         background-color: #F5F6FA;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: start;
         gap: 30px;
-        transition: right 0.3s ease;
+        padding-left: 50px;
+        transition: left 0.3s ease;
         z-index: 100;
     }
      #burger-toggle:checked~.header__clothes {
