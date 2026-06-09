@@ -60,8 +60,8 @@ a {
 }
 
 /*Burger*/
-label{
-    display:none ;
+label {
+    display: none;
 }
 
 #burger-toggle {
@@ -144,9 +144,10 @@ label{
 }
 
 @media screen and (max-width:635px) {
-    .container{
-         padding: 0 50px;
+    .container {
+        padding: 0 50px;
     }
+
     label {
         position: relative;
         display: block;
@@ -195,10 +196,12 @@ label{
         transform: scale(0);
         opacity: 0;
     }
-     .header__logo{
+
+    .header__logo {
         display: block;
     }
-      .header__clothes {
+
+    .header__clothes {
         position: fixed;
         top: 0;
         left: -100%;
@@ -213,8 +216,16 @@ label{
         transition: left 0.3s ease;
         z-index: 100;
     }
-     #burger-toggle:checked~.header__clothes {
+
+
+
+    #burger-toggle:checked~.header__clothes {
         left: 0;
+    }
+
+    #burger-toggle:checked~.header__clothes .header__logo {
+        font-size: 20px;
+
     }
 }
 
